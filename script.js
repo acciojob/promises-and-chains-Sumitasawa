@@ -1,5 +1,5 @@
 //your JS code here. If required.
-document.getElementById("userForm").addEventListener("submit",function (evetn) {
+document.getElementById("userForm").addEventListener("submit",function (event) {
 	event.preventDefault();
 
 	const age=document.getElementById("age").value.trim();
